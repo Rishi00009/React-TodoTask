@@ -1,0 +1,266 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1%;
+  text-align: center;
+}
+
+@media (min-width: 820px) {
+  .input{
+    width: 28%;
+    height: fit-content;
+    padding: 1% 0% 1% 2%;
+    margin: 0% 2% 0% 0%;
+    border-radius: 5px;
+  
+  }
+  
+  .todo{
+    width: 15%;
+    height: fit-content;
+    padding: .5% 0% .5% 0%;
+    margin: 0% 2% 0% 0%;
+    background-color: blanchedalmond;
+    color: rgb(14, 8, 17);
+    border-radius: 5px;
+    font-weight: bold; 
+  
+  }
+   .head{
+      width: 60%;
+      height: fit-content;
+      float: left;
+      text-align: left;
+      font-weight: bold;
+      font-size: larger;
+   }
+  .filter{
+    width: fit-content;
+    height: fit-content;
+    padding: .5% .5% .5% .5%;
+    margin: 2% .5% 2% .5%;
+    float: left;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(162, 111, 44, 0.67);
+    font-weight: bold;
+  }
+  
+  .task{
+    width: 25%;
+    height: fit-content;
+    background-color: rgba(32, 255, 136, 0.553);
+    float: left;
+    border-radius: 5px;
+    text-align: left;
+    padding: 2% 0% 2% 2%;
+    margin: 3%;
+  
+  }
+  
+  .edit{
+    width: fit-content;
+    height: fit-content;
+    padding: 2% 5% 2% 5%;
+    margin: 2% 1% 2% 40%;
+    background-color: rgba(5, 193, 52, 0.547);
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .delete{
+    width: fit-content;
+    height: fit-content;
+    padding: 2% 5% 2% 5%;
+    margin: 2% 1% 2% 1%;
+    background-color: rgba(193, 25, 25, 0.652);
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .status{
+    width: fit-content;
+    height: fit-content;
+    padding: 2% 5% 2% 5%;
+    margin: 2% 1% 2% 1%;
+    background-color: rgba(20, 114, 20, 0.816);
+    border-radius: 5px;
+    
+  }
+  
+  
+}
+
+
+@media (max-width: 820px) {
+  .input{
+    width: 20%;
+    height: fit-content;
+    padding: 1% 0% 1% 2%;
+    margin: 0% 2% 0% 0%;
+    border-radius: 5px;
+  
+  }
+  
+  .todo{
+    width: 20%;
+    height: fit-content;
+    padding: .5% 0% .5% 0%;
+    margin: 0% 2% 0% 0%;
+    background-color: blanchedalmond;
+    color: rgb(14, 8, 17);
+    border-radius: 5px;
+    font-weight: bold; 
+  
+  }
+   .head{
+      width: 100%;
+      height: fit-content;
+      float: left;
+      text-align: left;
+      font-weight: bold;
+      font-size: larger;
+   }
+  .filter{
+    width: 20%;
+    height: fit-content;
+    padding: .5% .5% .5% .5%;
+    margin: 2% .5% 2% .5%;
+    float: left;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(162, 111, 44, 0.67);
+    font-weight: bold;
+  }
+  
+  .task{
+    width: 90%;
+    height: fit-content;
+    background-color: rgba(32, 255, 136, 0.553);
+    float: left;
+    border-radius: 5px;
+    text-align: left;
+    padding: 2% 0% 2% 2%;
+    margin: 3%;
+  
+  }
+  
+  .edit{
+    width: fit-content;
+    height: fit-content;
+    padding: 2% 5% 2% 5%;
+    margin: 2% 1% 2% 40%;
+    background-color: rgba(5, 193, 52, 0.547);
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .delete{
+    width: fit-content;
+    height: fit-content;
+    padding: 2% 5% 2% 5%;
+    margin: 2% 1% 2% 1%;
+    background-color: rgba(193, 25, 25, 0.652);
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .status{
+    width: fit-content;
+    height: fit-content;
+    padding: 2% 5% 2% 5%;
+    margin: 2% 1% 2% 1%;
+    
+    border-radius: 5px;
+    
+  }
+  
+  
+}
+
+@media (min-width: 820px) and (max-width: 1020px) {
+  
+  .input{
+    width: 20%;
+    height: fit-content;
+    padding: 1% 0% 1% 2%;
+    margin: 0% 2% 0% 0%;
+    border-radius: 5px;
+  
+  }
+  
+  .todo{
+    width: 20%;
+    height: fit-content;
+    padding: .5% 0% .5% 0%;
+    margin: 0% 2% 0% 0%;
+    background-color: blanchedalmond;
+    color: rgb(14, 8, 17);
+    border-radius: 5px;
+    font-weight: bold; 
+  
+  }
+   .head{
+      width: 100%;
+      height: fit-content;
+      float: left;
+      text-align: left;
+      font-weight: bold;
+      font-size: larger;
+   }
+  .filter{
+    width: 20%;
+    height: fit-content;
+    padding: .5% .5% .5% .5%;
+    margin: 2% .5% 2% .5%;
+    float: left;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(162, 111, 44, 0.67);
+    font-weight: bold;
+  }
+  
+  .task{
+    width: 40%;
+    height: fit-content;
+    background-color: rgba(32, 255, 136, 0.553);
+    float: left;
+    border-radius: 5px;
+    text-align: left;
+    padding: 2% 0% 2% 2%;
+    margin: 3%;
+  
+  }
+  
+  .edit{
+    width: fit-content;
+    height: fit-content;
+    padding: 2% 5% 2% 5%;
+    margin: 2% 1% 2% 40%;
+    background-color: rgba(5, 193, 52, 0.547);
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .delete{
+    width: fit-content;
+    height: fit-content;
+    padding: 2% 5% 2% 5%;
+    margin: 2% 1% 2% 1%;
+    background-color: rgba(193, 25, 25, 0.652);
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .status{
+    width: fit-content;
+    height: fit-content;
+    padding: 2% 5% 2% 5%;
+    margin: 2% 1% 2% 1%;
+    
+    border-radius: 5px;
+    
+  }
+  
+  
+}
